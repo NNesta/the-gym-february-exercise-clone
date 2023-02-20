@@ -5,11 +5,11 @@ import {MdOutlineKeyboardArrowRight, MdOutlineKeyboardArrowLeft} from 'react-ico
 
 const AmsterdamSection = () => {
   return (
-    <Wrapper className='flex flex-col'>
+    <Wrapper className='flex flex-col bg-white'>
         <h1 className="text-[#cc4100] text-[38px] font-[300] leading-[56px] mb-[25px] max-w-[988px] mx-auto">
         We are VU Amsterdam
         </h1>
-        <div className='flex flex-col lg:flex-row overflow-scroll scrollbar-hide'>
+        <div className='flex overflow-scroll scrollbar-hide'>
         {
             [
                 {
@@ -35,7 +35,7 @@ const AmsterdamSection = () => {
             ].map((item,index)=><AmsterdamCard key={index} {...item} />)
         }
         </div>
-        <div className='bg-[#fcd3b6] text-[24px] leading-6 self-end w-[120px] ml-auto'>
+        <div className='hidden lg:block bg-[#fcd3b6] text-[24px] leading-6 self-end w-[120px] ml-auto'>
         <span class="material-symbols-outlined text-center inline-flex items-center justify-center w-[60px] h-[60px] font-[100]">
 arrow_back_ios
 </span>

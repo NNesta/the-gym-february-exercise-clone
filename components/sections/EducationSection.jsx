@@ -8,23 +8,23 @@ import {TbPuzzle} from 'react-icons/tb';
 
 const EducationSection = () => {
   return (
-    <Wrapper styles="px-[85px] bg-[#FAF7F5] z-[500]">
-        <ul className='flex flex-col lg:flex-row -mt-32 relative justify-between items-center text-[#333333]'>
-         <li className='flex items-center '>
+    <Wrapper styles="bg-[#FAF7F5] z-[500]  relative lg:-mt-12">
+       <ul className='flex justify-between items-center text-[#333333] h-[90px] py-[30px]'>
+         <li className='flex flex-col lg:flex-row items-center text-center'>
             <SlGraduation className="text-[30px] leading-[30px] text-[#0077b3] mr-[15px]"/>
-            <span className="text-[18px] font-[500] leading-[20.5]">31.704 students</span>
+            <span className="text-[18px] font-[500] leading-[20.5px]">31.704 students</span>
          </li>
-         <li className='flex  items-center'>
+         <li className='flex flex-col lg:flex-row items-center text-center'>
             <FaGlobeAfrica className="text-[30px] leading-[30px] text-[#0077b3] mr-[15px]"/>
-            <span className="text-[18px] font-[500] leading-[20.5]">5.190 international students</span>
+            <span className="text-[18px] font-[500] leading-[20.5px]">5.190 international students</span>
          </li>
-         <li className='flex  items-center'>
+         <li className='flex flex-col lg:flex-row items-center text-center'>
             <FaMedal className="text-[30px] leading-[30px] text-[#0077b3] mr-[15px]"/>
-            <span className="text-[18px] font-[500] leading-[20.5]">459 PhD defences</span>
+            <span className="text-[18px] font-[500] leading-[20.5px]">459 PhD defences</span>
          </li>
-         <li className='flex items-center'>
+         <li className='flex flex-col lg:flex-row items-center text-center'>
             <TbPuzzle className="text-[30px] leading-[30px] text-[#0077b3] mr-[15px]"/>
-            <span className="text-[18px] font-[500] leading-[20.5]">9 faculties</span>
+            <span className="text-[18px] font-[500] leading-[20.5px]">9 faculties</span>
          </li>
         </ul>
     
@@ -87,9 +87,8 @@ const EducationSection = () => {
             </ul>
          </div>
         </div>
-        <div className="w-full bg-white ">
-
-        <div className='flex max-w-[988px] mx-auto py-[45px] px-[60px] font-[500]" leading-[30px] text-[18px] items-center justify-between bg-[#0077B3]'>
+        <div className="w-full bg-white h-[270px] flex items-center justify-center  mt-[60px]">
+        <div className='flex flex-col lg:flex-row max-w-[988px] mx-auto py-[45px] px-[60px] font-[500]" leading-[30px] text-[18px] items-center justify-between bg-[#0077B3]'>
               <h1 className="leading-[36px] text-[24px] text-white">Do you also want to change your world?</h1>
               <button className="py-[15px] px-[30px] text-[24px] bg-white">Visit the VU Master’s Event</button>
         </div>
