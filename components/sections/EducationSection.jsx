@@ -8,8 +8,8 @@ import {TbPuzzle} from 'react-icons/tb';
 
 const EducationSection = () => {
   return (
-    <Wrapper styles="bg-[#FAF7F5] z-[500]  relative lg:-mt-12">
-       <ul className='flex justify-between items-center text-[#333333] h-[90px] py-[30px]'>
+    <Wrapper styles="bg-[#FAF7F5] z-[500]  relative lg:-mt-12 max-w-[1008px] mx-auto">
+       <ul className='flex justify-between items-center max-w-[1008px] mx-auto text-[#333333] h-[90px] py-[30px]'>
          <li className='flex flex-col lg:flex-row items-center text-center'>
             <SlGraduation className="text-[30px] leading-[30px] text-[#0077b3] mr-[15px]"/>
             <span className="text-[18px] font-[500] leading-[20.5px]">31.704 students</span>
@@ -28,7 +28,7 @@ const EducationSection = () => {
          </li>
         </ul>
     
-        <div className='grid lg:grid-cols-2 gap-8'>
+        <div className='grid lg:grid-cols-2 gap-8 max-w-[1008px] mx-auto'>
          <div className='w-full max-w-[484px] bg-white  p-[30px] flex flex-col gap-12'>
             <div className='flex items-center justify-between text-[#0077B3]'>
                 <h1 className='text-[38px] leading-[56px] font-[300]'>Education</h1>
