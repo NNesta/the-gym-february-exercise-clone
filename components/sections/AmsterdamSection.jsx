@@ -10,7 +10,7 @@ const AmsterdamSection = () => {
   return (
     <Wrapper className="">
       <div className="flex flex-col bg-white py-[60px]">
-      <h1 className="text-primary-blown text-[30px] leading-[36px] mb-[15px] lg:text-[38px] font-light leading-[56px] lg:mb-[25px] whitespace-nowrap w-full max-w-[988px] mx-auto">
+      <h1 className="text-primary-blown text-[30px] leading-9 mb-[15px] lg:text-[38px] font-light lg:leading-[56px] lg:mb-[25px] whitespace-nowrap w-full max-w-[988px] mx-auto">
         We are VU Amsterdam
       </h1>
       <div className="flex overflow-x-scroll scrollbar-hide">
@@ -39,14 +39,15 @@ const AmsterdamSection = () => {
           <AmsterdamCard key={index} {...item} />
         ))}
       </div>
-      <div className="hidden lg:block bg-primary-orange text-[24px] leading-6 self-end w-[120px] ml-auto">
-        <span class="material-symbols-outlined text-center inline-flex items-center justify-center w-[60px] h-[60px] font-thin">
-          arrow_back_ios
-        </span>
-        <span className="material-symbols-outlined text-center inline-flex items-center justify-center w-[60px] h-[60px] font-thin">
-          arrow_forward_ios
-        </span>
-      </div></div>
+        <div className="bg-primary-orange text-[24px] flex items-center justify-center gap-[30px] leading-6 self-end  w-[120px] h-[60px] ">
+                  <span class="material-symbols-outlined text-center font-[100]">
+                    arrow_back_ios
+                  </span>
+                  <span className="material-symbols-outlined text-center font-[100]">
+                    arrow_forward_ios
+                  </span>
+                </div>
+      </div>
     </Wrapper>
   );
 };

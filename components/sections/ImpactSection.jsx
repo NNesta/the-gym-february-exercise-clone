@@ -39,7 +39,7 @@ const ImpactSection = () => {
                   <div className="w-3 h-3 bg-primary-rose rounded-full" />
                 </div>
                 
-                <div className="bg-primary-orange text-[24px] flex items-center justify-center gap-[30px] leading-6 self-end w-[120px] h-[60px] ">
+                <div className="bg-primary-orange text-[24px] flex items-center justify-center gap-[30px] absolute lg:static -top-16 leading-6 self-end w-[120px] h-[60px] ">
                   <span class="material-symbols-outlined text-center font-[100]">
                     arrow_back_ios
                   </span>
