@@ -5,21 +5,21 @@ import {BsArrowRight} from 'react-icons/bs'
 
 const HeroSection = () => {
   return (
-    <div className='mt-[75px] lg:mt-0 relative z-0'>
- <Wrapper styles="z-50 lg:py-12 bg-white shadow-md">
-    <div className='bg-white lg:py-[90px] max-w-[1008px]  mx-auto  text-[#333333] text-[33px] lg:text-[45px] leading-[40px] lg:leading-[60px] font-[300]'>
+    <div className='mt-[75px] relative z-0'>
+ <Wrapper styles="z-50  bg-white shadow-3xl">
+    <div className='bg-white lg:py-[30px] max-w-[1008px]  mx-auto  text-primary-black text-[33px] lg:text-[45px] leading-[40px] lg:leading-[60px] font-light'>
 
         <h1 className='max-w-[904px] mx-auto py-4'>You don’t just become something, you become someone</h1>
     </div>
-    <div className='flex flex-col shadow-md lg:flex-row items-center w-full max-w-[988px] mx-auto bg-white -mb-24 relative'>
-        <div className="lg:w-[576px] w-full  text-white bg-[#0077B3] py-[30px] px-10">
-  <div className=' flex justify-between items-center border-b border-white'>
-    <input className='bg-transparent placeholder:text-white text-[22px] leading-[34px] font-[300] outline-none' placeholder='search...'/>
+    <div className='flex flex-col shadow-3xl lg:flex-row items-center w-full max-w-[988px] mx-auto mb-6 bg-white -bottom-10 relative'>
+        <div className="lg:w-[576px] w-full  text-white bg-primary-blue py-[30px] px-10 ">
+  <div className=' flex justify-between items-center border-b border-white '>
+    <input className='bg-transparent placeholder:text-white text-[22px] leading-[34px] font-light outline-none' placeholder='search...'/>
         <HiOutlineSearch size={25} />
   </div>
         
         </div>
-        <div className='lg:w-[412px]  py-[30px] px-10 bg-white flex text-[#0077B3] font-[300] justify-between items-center'>
+        <div className='lg:w-[412px]  py-[30px] px-10 bg-white flex text-primary-blue font-light justify-between items-center'>
             <p className='text-[22px] leading-[30px]'>About VU Amsterdam</p>
             <BsArrowRight className='text-[22px]' />
             </div>
