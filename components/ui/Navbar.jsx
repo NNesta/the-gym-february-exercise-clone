@@ -15,7 +15,7 @@ const Navbar = () => {
     return () => (document.body.style.overflow = "scroll");
 },[nav]);
   return (
-    <Wrapper styles="fixed inset-x-0 top-0 max-w-[1252px] mx-auto z-[999] shadow-3xl mb-16">
+    <Wrapper styles="fixed inset-x-0 top-0  z-[999] shadow-3xl mb-16">
       {!nav ? (
         <div className=" flex items-center h-[75px]">
           <Link href="/" className="flex-1 bg-white h-full flex px-8">

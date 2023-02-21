@@ -115,11 +115,9 @@ expand_more
                 </div>
             
           </div>
-        </div>{" "}
-      </Wrapper>
-      <Wrapper styles="">
+        </div>
+      
       <AnnouncementCard title="Working at VU Amsterdam?" subTitle="Take a look at our vacancies!"/>
-       
       </Wrapper>
     </div>
   );
