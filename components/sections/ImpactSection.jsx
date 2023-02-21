@@ -38,11 +38,12 @@ const ImpactSection = () => {
                   <div className="w-3 h-3 bg-primary-rose rounded-full" />
                   <div className="w-3 h-3 bg-primary-rose rounded-full" />
                 </div>
-                <div className="bg-primary-orange text-[24px] leading-6 self-end  absolute lg:static -top-16 w-[120px] ">
-                  <span class="material-symbols-outlined text-center inline-flex items-center justify-center w-[60px] h-[60px] font-[100]">
+                
+                <div className="bg-primary-orange text-[24px] flex items-center justify-center gap-[30px] leading-6 self-end  absolute lg:static -top-16 w-[120px] h-[60px] ">
+                  <span class="material-symbols-outlined text-center font-[100]">
                     arrow_back_ios
                   </span>
-                  <span className="material-symbols-outlined text-center inline-flex items-center justify-center w-[60px] h-[60px] font-[100]">
+                  <span className="material-symbols-outlined text-center font-[100]">
                     arrow_forward_ios
                   </span>
                 </div>

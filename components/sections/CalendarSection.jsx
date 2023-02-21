@@ -105,15 +105,15 @@ expand_more
                 arrow_right_alt
               </span>
             </div>
-
-            <div className="hidden lg:block bg-primary-sky text-[24px] leading-6 self-end">
-              <span class="material-symbols-outlined text-center inline-flex items-center justify-center w-[60px] h-[60px] font-[100]">
-                arrow_back_ios
-              </span>
-              <span className="material-symbols-outlined text-center inline-flex items-center justify-center w-[60px] h-[60px] font-[100]">
-                arrow_forward_ios
-              </span>
-            </div>
+            <div className="bg-primary-sky text-[24px] flex items-center justify-center gap-[30px] leading-6 self-end  w-[120px] h-[60px] ">
+                  <span class="material-symbols-outlined text-center font-[100]">
+                    arrow_back_ios
+                  </span>
+                  <span className="material-symbols-outlined text-center font-[100]">
+                    arrow_forward_ios
+                  </span>
+                </div>
+            
           </div>
         </div>{" "}
       </Wrapper>
