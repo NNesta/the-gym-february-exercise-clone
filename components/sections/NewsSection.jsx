@@ -98,7 +98,7 @@ arrow_forward
             
               <img
                 className="object-cover h-full"
-                src="https://assets.vu.nl/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/45e509b2-1cf3-49a7-b40d-53310c2e2219/7%20ton%20voor%20welzijn%20Oekrai%CC%88ne%20vluchtelingen_afb_1250x600.jpg"
+                src="https://assets.vu.nl/d8b6f1f5-816c-005b-1dc1-e363dd7ce9a5/f9f7b751-4e22-4175-add9-3aec344e16ed/Wouter-Botzen.png"
                 alt=""
               />
               <div className="flex flex-col lg:col-span-2  lg:pl-[30px]">

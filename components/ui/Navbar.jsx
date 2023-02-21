@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className=" flex items-center h-[75px]">
           <Link href="/" className="flex-1 bg-white h-full flex px-8">
             <img
-              className="h-[45px] my-auto"
+              className="h-[45px] object-cover my-auto"
               src="https://vu.nl/assets/images/VU-logo-nobg.svg"
               alt=""
             />
